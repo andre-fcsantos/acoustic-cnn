@@ -163,12 +163,17 @@ checks completed during this refactor.
 
 The original experimental scripts, unpublished observations, trained weights,
 study-specific thresholds and research results are not part of this public bundle.
-They remain in the original research project. This refactor is a software release
-candidate; it is not a rerun or replacement of that experiment.
+They remain in the original research project. This software release does not
+rerun or replace that experiment.
 
 ## Authorship and reuse
 
-Developed by André Felipe Carneiro dos Santos. Publication coauthorship and
-licensing should be finalized by the project contributors before public release.
-No open-source license is assigned in this preparation bundle. Public availability
-by itself does not grant an unrestricted reuse license.
+Developed by André Felipe Carneiro dos Santos.
+
+The source code is distributed under the [MIT License](LICENSE).
+Copyright (c) 2026 André Felipe Carneiro dos Santos. Reuse and redistribution
+must retain the copyright and license notice.
+
+The license applies to the software distributed in this repository.
+Private recordings, unpublished datasets and research model weights are not
+distributed here.
