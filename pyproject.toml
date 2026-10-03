@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acoustic-cnn-pipeline"
+version = "0.1.0"
+description = "Configurable multilabel acoustic CNN training and inference"
+requires-python = ">=3.10"
+authors = [{name = "André Felipe Carneiro dos Santos"}]
+dependencies = ["numpy", "pandas", "scikit-learn", "librosa>=0.10", "soundfile", "tensorflow>=2.16", "matplotlib"]
+
+[project.scripts]
+acoustic-cnn = "acoustic_cnn.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

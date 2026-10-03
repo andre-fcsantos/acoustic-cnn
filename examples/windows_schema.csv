@@ -1,0 +1,7 @@
+recording_id,audio_file,start_seconds,split,bird,frog,insect
+example_train,example_train.wav,0,train,1,0,0
+example_train,example_train.wav,5,train,0,1,1
+example_val,example_val.wav,0,val,0,0,1
+example_val,example_val.wav,5,val,1,1,0
+example_test,example_test.wav,0,test,1,0,1
+example_test,example_test.wav,5,test,0,1,0

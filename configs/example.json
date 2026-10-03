@@ -1,0 +1,13 @@
+{
+  "classes": ["bird", "frog", "insect"],
+  "sample_rate": 48000,
+  "window_seconds": 5.0,
+  "n_fft": 2048,
+  "hop_length": 512,
+  "n_mels": 128,
+  "fmax": 24000,
+  "seed": 42,
+  "batch_size": 16,
+  "epochs": 40,
+  "patience": 5
+}
